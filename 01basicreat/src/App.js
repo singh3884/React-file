@@ -5,7 +5,7 @@ function App() {
     <>
     <Chaii/>
     </>
-  );
+  );  
 }
 
 export default App;

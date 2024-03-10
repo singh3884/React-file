@@ -3,4 +3,4 @@ function Chaii(){
         <h2>chai in react</h2>
     )
 }
-export default Chaii
+export default Chaii  
