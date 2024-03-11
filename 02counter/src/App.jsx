@@ -8,14 +8,22 @@ function App() {
   let [counter,AvinashCounter]= useState(15);
   // let counter = 12
 const  addValue = ()=>{
-  console.log("Value is added", counter )
+  // console.log("Value is added", counter )
   // counter =counter +1;
-  AvinashCounter(counter+1)
+ 
+  if(counter>=0 && counter <20) {
+
+    AvinashCounter(counter+1)
+  }
   
 }
 
 const removevalue = ()=>{
-  AvinashCounter(counter-1)
+  if(counter >0 && counter <=20)
+  {
+
+    AvinashCounter(counter-1)
+  }
 }
   return (
     <>
@@ -29,3 +37,8 @@ const removevalue = ()=>{
 }
 
 export default App
+
+
+//Assignment 
+// We have to increase the out put in range {0,20}//Done
+
